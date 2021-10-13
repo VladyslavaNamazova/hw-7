@@ -1,0 +1,143 @@
+* {
+ box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.block {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.block__content_wrapper {
+    text-align: center;
+    max-width: 600px;
+}
+
+.block .block__content_wrapper .block__subtitle {
+  color: gray;
+}
+
+.block .block__content_wrapper .block__text {
+    color: gray;
+  }
+  
+  
+
+  .mainblock {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+
+.mainblock .mainblock__content_wrapper {
+    max-width: 1230px;
+    text-align: center;
+    color: gray;
+    height: 100px;
+    width: calc(100% / 3);
+    padding: 100px;
+}
+
+img{
+    width: 50px;
+}
+
+
+
+button {
+    background-color: yellowgreen;
+    padding: 25px 10px;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    max-width: 200px;
+    text-decoration: none;
+    text-transform: uppercase;
+    height: 50px;
+}
+
+button:hover {
+    cursor: pointer;
+    background: saddlebrown;
+
+}
+
+button p{
+    color: white;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.block__info .block__info_wrapper_business{
+    width: calc(100% / 4);
+    max-width: 1440px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(90, 192, 218);
+
+}
+
+
+.block__info .block__info_wrapper_installs{
+    width: calc(100% / 4);
+    max-width: 1440px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color:plum;
+}
+
+
+
+.block__info .block__info_wrapper_downloads{
+    width: calc(100% / 4);
+    max-width: 1440px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: purple;
+
+}
+
+
+
+.block__info .block__info_wrapper_users{
+    width: calc(100% / 4);
+    max-width: 1440px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rebeccapurple;
+
+}
+
+
+
+.block__info {
+    display: flex;
+    margin-top: 50px;
+}
+
+.block__image {
+    margin-right: 5px;
+}
